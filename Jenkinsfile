@@ -1,2 +1,4 @@
-System.out.println("HelloWorld");
-
+node(‘master’) {
+  stage ‘Say Hello’
+    // Saying hello to everyone.
+    echo 'Hello World!'
